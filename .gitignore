@@ -1,0 +1,4 @@
+-pycache_/
+*.pyc
+create_table.py
+data.db
