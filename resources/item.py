@@ -62,3 +62,7 @@ class Item(Resource):
 class ItemList(Resource):
     def get(self):
         return {'items': [x.json() for x in ItemModel.query.all()]}
+    
+Class Home(Resource):
+    def get(self):
+        return {'Home':"This is home page "}
